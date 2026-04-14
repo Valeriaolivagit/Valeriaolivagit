@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Valeria Oliva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body class="body-bg">
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <a href="index.html">Valeria<span>Oliva</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home" class="link-underline">Inicio</a></li>
+                <li><a href="about-me.html#about-me" class="link-underline">Sobre mi</a></li>
+                <li><a href="index.html#skills" class="link-underline">Skills</a></li>
+                <li><a href="index.html#proyectos" class="link-underline">Mis proyectos</a></li>
+                <li class="nav-item dropdown"><a href="#" class="link-underline nav-link dropdown-toggle cv-link"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Currículum</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="cv.html#experiencia"><span
+                                    class=" link-underline">Experiencia</span></a></li>
+                        <li><a class="dropdown-item" href="cv.html#certifications"><span
+                                    class=" link-underline">Cursos</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact" class="link-underline">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="/assets/image/logo.png" alt="profile image">
+                </div>
+                <div class="hero-text">
+                    <h1>Valeria Oliva</h1>
+                    <h2>Desarrolladora Web Trainee</h2>
+                    <p>Desarrolladora Full Stack en crecimiento, con un fuerte enfoque en el desarrollo backend mediante
+                        Java y Spring Boot. Disfruto diseñando interfaces intuitivas optimizando la lógica del lado del
+                        servidor. Comprometida con las buenas prácticas de programación y aprendizaje constante para
+                        crear software que aporte valor real. <a href="about-me.html" class="links link-underline">Ver
+                            más</a></p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                    </div>
+                    <div class="text-center">
+                        <a href="#contacto" class="btn">Contactame</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="cards">
+            <h2 class="section-title">Habilidades y tecnologías</h2>
+            <div class="card-container">
+                <div class="custom-card">
+                    <div class="card-header">
+                        <h3>Front-end</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-item">
+                            <span><i class="devicon-html5-plain"></i>
+                                HTML</span>
+                            <span class="level medium">Intermedio</span>
+                        </div>
+                        <div class="card-item">
+                            <span>
+                                <i class="devicon-css3-plain"></i>
+                                CSS3</span>
+                            <span class="level medium">Intermedio</span>
+                        </div>
+                        <div class="card-item">
+                            <span>
+                                <i class="devicon-javascript-plain"></i>
+                                Javascript</span>
+                            <span class="level basic">Básico</span>
+                        </div>
+                        <div class="card-item">
+                            <span>
+                                <i class="devicon-bootstrap-plain"></i>
+                                Bootstrap</span>
+                            <span class="level medium">Intermedio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="card-header">
+                        <h3>Back-end</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-item">
+                            <span><i class="devicon-java-plain"></i> Java</span>
+                            <span class="medium level">Intermedio</span>
+                        </div>
+                        <div class="card-item">
+                            <span> <i class="devicon-spring-original"></i>
+                                Spring Boot</span>
+                            <span class="medium level">Intermedio</span>
+                        </div>
+                        <div class="card-item">
+                            <span> <i class="devicon-spring-original"></i>
+                                Spring security</span>
+                            <span class="basic level">Básico</span>
+                        </div>
+                        <div class="card-item">
+                            <span>
+                                <i class="devicon-hibernate-plain"></i>
+                                JPA / Hibernate</span>
+                            <span class="basic level">Básico</span>
+                        </div>
+                        <div class="card-item">
+                            <span>
+                                <i class="devicon-mysql-original"></i>
+                                MySQL</span>
+                            <span class="basic level">Básico</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="card-header">
+                        <h3>Tools</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-item">
+                            <span><i class="devicon-git-plain"></i> Git</span>
+                            <span class="basic level">Básico</span>
+                        </div>
+                        <div class="card-item">
+                            <span><i class="devicon-github-original"></i> Github</span>
+                            <span class="basic level">Básico</span>
+                        </div>
+                        <div class="card-item">
+                            <span><i class="bi bi-wordpress"></i> Wordpress</span>
+                            <span class="basic level">Básico</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="card-header">
+                        <h3>Otras habilidades</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-item">
+                            <span><i class="bi bi-windows"></i> Microsoft Excel</span>
+                            <span class="basic level">Básico</span>
+                        </div>
+                        <div class="card-item">
+                            <span><i class="bi bi-chat"></i> Inglés</span>
+                            <span class="medium level">Intermedio</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="study-case">
+            <div class="studyCase-card">
+                <div class="row g-0">
+                    <div class="card-img">
+                        <img src="/assets/image/EduManager-imgportafolio.png" alt="EduManager">
+                    </div>
+                    <div>
+                        <h2>EduManager - Gestión</h2>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="proyectos" class="cards">
+            <h2 class="section-title">Proyectos personales</h2>
+            <div class="card-container">
+                <div class="custom-card">
+                    <div class="card-img">
+                        <img src="/assets/image/AlkeWallet-imgportafolio.png" alt="Alke-Wallet">
+                    </div>
+                    <div class="card-info">
+                        <h3>Alke-Wallet</h3>
+                        <h4>Gestión financiera digital</h4>
+                        <p>AlkeWallet es una billetera virtual diseñada para la gestión financiera digital. Permite a
+                            los usuarios registrar, controlar y monitorear sus transacciones de manera segura,
+                            facilitando el seguimiento de ingresos y gastos para una mejor organización de sus finanzas
+                            personales.</p>
+                        <div class="card-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Javascript</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="#" target="_blank"> <i class="bi bi-link"></i>Demo</a>
+                            <a href="#" target="_blank"> <i class="bi bi-github"></i>Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="card-img">
+                        <img src="/assets/image/Bibliotecadigital-imgportafolio.png" alt="Inks&Books">
+                    </div>
+                    <div class="card-info">
+                        <h3>Inks&Books</h3>
+                        <h4>Sistema de Gestión de Préstamos</h4>
+                        <p>Ink&Books es una biblioteca virtual enfocada en la gestión de préstamos de libros. El sistema
+                            permite administrar el catálogo, registrar usuarios, y controlar préstamos y devoluciones,
+                            optimizando la organización y disponibilidad de los recursos bibliográficos.</p>
+                        <div class="card-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Javascript</span>
+                            <span>JSP</span>
+                            <span>MySQL</span>
+                            <span>Java</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="#" target="_blank"> <i class="bi bi-link"></i>Demo</a>
+                            <a href="#" target="_blank"> <i class="bi bi-github"></i>Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="card-img">
+                        <img src="/assets/image/EduManager-imgportafolio.png" alt="EduManager">
+                    </div>
+                    <div class="card-info">
+                        <h3>EduManager</h3>
+                        <h4>Sistema de Gestión educativo</h4>
+                        <p>EduManager es un sistema de gestión educativo orientado a la administración de estudiantes y
+                            cursos. Facilita la organización de información académica, permitiendo una gestión eficiente
+                            dentro de un entorno educativo digital.</p>
+                        <div class="card-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Javascript</span>
+                            <span>Spring Boot</span>
+                            <span>Spring security</span>
+                            <span>Java</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="#" target="_blank"> <i class="bi bi-link"></i>Demo</a>
+                            <a href="#" target="_blank"> <i class="bi bi-github"></i>Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy: 2026 Valeria Oliva - Todos los derechos reservados</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./assets/Javascript/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./assets/Javascript/main.js"></script>
+</body>
+
+</html>

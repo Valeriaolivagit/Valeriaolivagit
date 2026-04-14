@@ -1,0 +1,16 @@
+.about-me-text {
+    flex: 2;
+}
+
+.about-me-text h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+.about-me-text p {
+    margin-bottom: 1.5rem;
+    color: var(--gray-text);
+    font-size: 1.1rem;
+}
+

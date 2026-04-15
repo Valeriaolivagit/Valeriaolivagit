@@ -78,3 +78,7 @@ Todo lo anterior, se traduce en la optimización del tiempo de desarrollo (Graci
 
 #### 8. Justificación de porque elegí este proyecto
 La razón por la que escogí este proyecto, es porque representa de forma clara mi aprendizaje durante el Bootcamp y demuestra mi capacidad para desarrollar una aplicación web completa utilizando las herramientas enseñadas. Este proyecto, integra aspectos claves de mi aprendizaje tanto del Frontend como el Backend, así como del ámbito de seguridad, manejo de base de datos y diseño de interfaces, lo que lo convierte en un ejemplo representativo de mis habilidades técnicas y de mi proceso de aprendizaje como desarrolladora.
+
+# Contacto
+* Correo electrónico: dev.volivavaldes@gmail.com
+* Télefono: +569 57063009
